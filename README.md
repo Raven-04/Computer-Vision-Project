@@ -90,15 +90,20 @@ Function: def evaluate_model(model, test_loader):
 
 # 7: Model Statistics
   1. FLOPs and Parameters
+
      a. FLOPs: Measured in GFLOPs using ptflops and FlopCountAnalysis.
+
      b. Parameters Count: Total number of trainable parameters.
   
-  2. Inference Speed
+  3. Inference Speed
+
      a. GPU Batch Time: Measured in milliseconds per batch and per image.
+
      b. CPU Batch Time: Averaged over 10 iterations for reliability.
 
 # 8: Authors
 This project was created by a group of 4 AUS students: -
+   
    a. Siva Adduri
    
    b. Mohamed Alkhaja Alawadhi
