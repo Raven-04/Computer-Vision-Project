@@ -118,6 +118,7 @@ This project was created by a group of 4 AUS students: -
    a. Turn on the internet (you would first have to "Get phone verified" to use the internet).
    b. Use GPU instead of CPU to compile the codes (Accelerator -> either "GPU T4 x2" or "GPU P100", in this project we used "GPU P100").
 3. The train_and_validate code will compile the code fully on average of 2.5 to 3.5 hours (for each model).
-4. While each model (PiT, ViT, ResNet, EfficientNet) shares a similar structure, some variations exist to accommodate model-specific requirements.
-5. This final project was required for a Computer Vision Course at the American University of Sharjah (AUS).
-6. Utilized Chatgpt for optimization of the codes and to efficiently utilize our time as much as possible during the semester.
+4. While each model (PiT, ViT, ResNet) shares a similar structure, some variations exist to accommodate model-specific requirements.
+5. We were supposed to also do an EfficientNet. However, time did not permit us, as the training part takes a while for each model.
+6. This final project was required for a Computer Vision Course at the American University of Sharjah (AUS).
+7. Utilized Chatgpt for optimization of the codes and to efficiently utilize our time as much as possible during the semester.
