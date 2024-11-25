@@ -65,36 +65,46 @@ print("Model loaded successfully!")
 
 # 4: Evaluating the Model
   a. Classification Report: Precision, Recall, F1-Score for all 29 classes.
+  
   b. Confusion Matrix: Visualized with seaborn.
+  
   c. Predictions Visualization: Correctly and incorrectly classified images.
 
 Function: def evaluate_model(model, test_loader):
 
 # 5: Model Performance Metrics
   a. Training Accuracy: Recorded after each epoch.
+  
   b. Validation Accuracy: Evaluated on the validation set.
+  
   c. Testing Metrics: Overall performance on unseen test data.
+  
   d. Key outputs include FLOPs, parameter count, and inference speed:
       GFLOPs: FlopCountAnalysis used for calculation.
       Inference Speed: Average processing time for GPU and CPU.
 
 # 6: Visualization
   a. Visualize the smaples with correct (with confidence scores) and incorrect predictions (misclassified samples).
+  
   b. Utilize a confusion matrix for the entire test set
 
 # 7: Model Statistics
   1. FLOPs and Parameters
-      a. FLOPs: Measured in GFLOPs using ptflops and FlopCountAnalysis.
-      b. Parameters Count: Total number of trainable parameters.
+     a. FLOPs: Measured in GFLOPs using ptflops and FlopCountAnalysis.
+     b. Parameters Count: Total number of trainable parameters.
+  
   2. Inference Speed
-      a. GPU Batch Time: Measured in milliseconds per batch and per image.
-      b. CPU Batch Time: Averaged over 10 iterations for reliability.
+     a. GPU Batch Time: Measured in milliseconds per batch and per image.
+     b. CPU Batch Time: Averaged over 10 iterations for reliability.
 
 # 8: Authors
 This project was created by a group of 4 AUS students: -
    a. Siva Adduri
+   
    b. Mohamed Alkhaja Alawadhi
+   
    c. Arya Sankhe
+   
    d. Hamza Khan 
 
 # 9: Disclaimer: -
