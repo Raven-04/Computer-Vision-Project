@@ -120,3 +120,4 @@ This project was created by a group of 4 AUS students: -
 3. The train_and_validate code will compile the code fully on average of 2.5 to 3.5 hours (for each model).
 4. While each model (PiT, ViT, ResNet, EfficientNet) shares a similar structure, some variations exist to accommodate model-specific requirements.
 5. This final project was required for a Computer Vision Course at the American University of Sharjah (AUS).
+6. Utilized Chatgpt for optimization of the codes and to efficiently utilize our time as much as possible during the semester.
